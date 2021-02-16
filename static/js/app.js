@@ -11,7 +11,7 @@ function buildTable(data) {
     // Tell JS to use an empty string when creating a table --> blank canvas
         // This is also the standard way to clear data
     tbody.html("");
-}
+
 
     // Loop through data array and add rows of data to the table
     data.forEach((dataRow) => {
@@ -52,15 +52,15 @@ function handleClick() {
         // Apply thr filter to the table data
         // === checks for strict equality
         filteredData = filteredData.filter(row => row.datetime === date);
-    }
+    };
 
     // Rebuild the tabke using the filtered data
     // If a date was not entered, the filteredData will be the original tableData
     buildTable(filteredData);
-}
+};
 
 // Listen for a filter button click
-d3.selectAll(#filter-btn).on("click", handleClick);
+d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
