@@ -25,6 +25,8 @@ Overall, the site is clean and visually appealing.  The site opens with an inter
 ### Drawback
 UFO data is only for dates between January 1, 2010 and January 13, 2010 and is only for sightings in the United States.  This is a limited data set and should be expanded to include all sightings available to date from all over the world.
 
+#
+
 ### Proposed Recommendations
 - Filters would be easier to use if there were drop-down menus displaying available criteria
 - The website would be even more interesting if there were additional pages incorporated, such as a blog, photos, map of sightings, etc.
